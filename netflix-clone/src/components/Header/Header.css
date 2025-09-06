@@ -32,3 +32,11 @@
     align-items: center;
     list-style: none;
 }
+
+.header_right ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
