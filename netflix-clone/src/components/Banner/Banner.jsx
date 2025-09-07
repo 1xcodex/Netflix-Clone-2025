@@ -12,7 +12,7 @@ function Banner() {
         console.log(request);
         setMovie(
           request.data.results[
-            Math.floor(Math.random() * request.data.results.length) //randam select one movie
+            Math.floor(Math.random() * request.data.results.length) //random select one movie
           ]
         );
       } catch (error) {
